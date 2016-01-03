@@ -9,3 +9,24 @@ value do you think it offers?
 A. Staging area is the middle ground b/w the working directory and the git repository. It
 offers u to have a customizable holder for our changes as we would like to tweeg with and 
 helps out in maintaining order before making any changes to the repository itself.
+
+Q3. How can you use the staging area to make sure you have one commit per logical change?
+A. We can check the diff b/w staging area and repo using git --staged and it'll show us
+what are we going to commit exactly so we can double check before commiting. There maybe
+other changes there in our working directory but that will be ignored during this process.
+
+Q4. What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+A. Some situations in where branches would be helpful can be 
+1. experiments
+2. suggestion
+3. proposal
+4. working simultaneously
+5. have an active branch different from main.
+6. compartmentalize.
+7. can easily jump b/w branches to continue other sections of work anytime.
+
+Branches will help out in keeping  the main branch with high production quality keeping 
+everything clean for public to see.
+
+Q5. 

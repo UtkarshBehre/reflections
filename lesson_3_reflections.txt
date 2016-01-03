@@ -1,1 +1,2 @@
-
+Q. When would you want to use a remote repository rather than keeping all your work local?
+A. Whenever there is a change that is really simple change in a readme file or so.

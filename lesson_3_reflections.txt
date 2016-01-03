@@ -13,3 +13,9 @@ A. We'll use forks to copy some person's repository to our own account, use clon
 a repository from our account on github to our local system or copy a repository from one 
 location to the other, and use branches to to make seperate branches inside a repository 
 on our local system.
+
+Q. What is the benefit of having a copy of the last known state of the remote stored locally?
+A. It'll benefit in commits locally addressing to the origin/master stored locally. So that
+when we git fetch and our origin/master updates to the remote origin then we can simply 
+merge without having any doubt about where to merge or at what point did we make our own
+master.

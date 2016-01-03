@@ -29,4 +29,25 @@ A. Some situations in where branches would be helpful can be
 Branches will help out in keeping  the main branch with high production quality keeping 
 everything clean for public to see.
 
-Q5. 
+Q5. How do the diagrams help you visualize the branch structure?
+A. It helps out in visualizing how the branch structure exists, specially when there is
+is a complex branch structure most important is to know which branch is whose parent and so
+it helps out in a clean demonstration for the structure.
+
+Q6. What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+A. It combines the codes of both branches into one branch using the default method.
+We can use "git merge master coins", while being in the master branch, to merge coins branch
+into the master branch.
+Once a branch is merged we can then delete the branch as it is just a label at 
+this point. We can use "git branch -d coins" for this. 
+We represent it in the way we do because we are able to merge any 2 parallel going branches
+together at any point we's like to.
+
+Q7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A. pros would be it always makes it easier by highlighting the conflict in the file itself
+everytime it detects the conflict and if there is no conflict then it does everything itself
+pretty much. On the other hand if there is a conflict it always forces us to resolve it 
+manualy, this can be tedious and increase reliability or might take a while since sometimes 
+2 different people will have to fix a schedule to discuss the changes to be made in the final
+commit.

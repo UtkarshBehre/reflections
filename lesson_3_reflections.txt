@@ -6,3 +6,10 @@ stay up-to-date with your remote repository?
 A. We might not want let git pull changes automatically coz we might be working on something
 that doesnt require and updates from remote repository. So manual pull will allow us to 
 finish our work then pull after we are all checked out.
+
+Q. Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+A. We'll use forks to copy some person's repository to our own account, use clones to copy
+a repository from our account on github to our local system or copy a repository from one 
+location to the other, and use branches to to make seperate branches inside a repository 
+on our local system.

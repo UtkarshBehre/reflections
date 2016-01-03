@@ -1,2 +1,8 @@
 Q. When would you want to use a remote repository rather than keeping all your work local?
 A. Whenever there is a change that is really simple change in a readme file or so.
+
+Q. Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+A. We might not want let git pull changes automatically coz we might be working on something
+that doesnt require and updates from remote repository. So manual pull will allow us to 
+finish our work then pull after we are all checked out.
